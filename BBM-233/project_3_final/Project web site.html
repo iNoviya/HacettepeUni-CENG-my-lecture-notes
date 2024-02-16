@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)https://web.cs.hacettepe.edu.tr/~bbm231/final_verilog_project_2023/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Introduction</title>
+	<link rel="shortcut icon" sizes="192x192" type="image/png" href="https://web.cs.hacettepe.edu.tr/~bbm231/final_verilog_project_2023/favicon.ico">
+	<script>document.write('<link href="css/style.css?v=' + Date.now() + '" rel="stylesheet" />');</script><link href="./Project web site_files/style.css" rel="stylesheet">
+
+	<script src="./Project web site_files/jquery-3.6.0.min.js.indir"></script>
+	<script>
+		$.ajaxSetup({
+            cache: false
+        });
+		
+		$(window).on('hashchange', function () {
+            checkHash();
+        });
+
+        function checkHash() {
+            let page = window.location.hash;
+            if (page !== "") {
+                loadPage(page);
+            } else {
+                loadMain();
+            }
+        }
+
+		function loadMain() {
+			loadPage("#intro");
+		}
+		
+        function loadPage(page, callback = () => {
+        }) {
+            let url = "subpages/" + page.substring(1, page.length) + ".html";
+            $("#dynamic-content").load(url, loaded => {
+				$(window).scrollTop(0);
+                callback();
+            });
+        }
+		
+		$( document ).ready(function() {
+			checkHash();
+		});
+	</script>
+	<script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+			document.getElementById("banner").style.top = "0";
+		  } else {
+			document.getElementById("banner").style.top = "-8vh";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}
+	</script>
+</head>
+<body style="margin-top: unset;">
+
+<div id="banner" class="navbar">
+	<a href="https://web.cs.hacettepe.edu.tr/~bbm231/final_verilog_project_2023/#">
+		<img src="./Project web site_files/banner.svg" class="logo">
+	</a>
+</div>
+<div id="dynamic-content" style="background: unset;"><script>document.title = "Introduction"</script>
+<video autoplay="" muted="" loop="" id="myVideo" class="background-image">
+	<source src="images/bg.mp4" type="video/mp4">
+</video>
+<div class="background-curtain"></div>
+<div id="title" class="title-div">
+	<div class="title-div-up">
+		<img src="./Project web site_files/banner_logo.png" class="timeline-wolf-image">
+		<div class="badcoma mini-caption">
+			TURKISH COMBAT AIRCRAFT
+		</div>
+	</div>
+	<div class="title-div-bottom">
+		<div class="course-name-text enigma">
+			BBM233 Logic Design Lab - Fall 2023
+		</div> 
+		<div class="project-name-text badcoma">FINAL VERILOG PROJECT
+		</div> 
+		<div class="animate-flicker enigma motto">
+			<a class="whiteText text-decoration-none" id="skipIntro" href="https://web.cs.hacettepe.edu.tr/~bbm231/final_verilog_project_2023/#background">&gt;&gt; Click here to Get Mission Directives &lt;&lt;</a>
+		</div>
+	</div>
+</div>
+<div class="preparedby">
+	Prepared by Selma Dilek and Alperen Çakın. The winner award sponsored by <a href="https://www.tusas.com/" target="_blank">Turkish Aerospace Industries, Inc.</a>
+</div>
+<script>
+	var bg = $("#dynamic-content").css("background");
+
+	$("#skipIntro").click(() => {
+		// $("#dynamic-content").css("background",bg);
+		$("body").css("margin-top", "8vh");
+		let trustAudio = document.querySelector("#audio1");
+		trustAudio.play();
+		trustAudio.onended = function() {
+			document.querySelector("#audio2").play();
+		};
+	});
+	$("body").css("margin-top", "unset");
+	$("#dynamic-content").css("background","unset");	
+</script></div>
+
+
+<audio id="audio1" src="audio/1.ogg?v=1" style="display: none"></audio>
+<audio id="audio2" src="audio/2.ogg?v=1" style="display: none"></audio></body></html>
