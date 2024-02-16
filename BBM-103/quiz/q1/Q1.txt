@@ -1,0 +1,23 @@
+ssh b2230356164@dev.cs.hacettepe.edu.tr
+**********
+ll
+mkdir playing_with_linux_cmd
+ll
+cd playing_with_linuz_cmd
+ll
+nkdir testing_linux_dServer
+cd testing_linux_dServer
+ll
+cat jibberish.txt  
+namo README.txt
+cp jibberish.txt wise_sayings.txt
+rm jiblerish.txt 
+cat <wise_sayings.txt
+mkdir my_precious 
+mv wise_sayings /my_precious 
+cd my_precious
+ll
+rwx my_precious 
+cd ~ 
+zip gameower.zip  
+scp <localfile> <b2230356164>@dev.cs.hacettepe.edu.tr:/home/ogr/b2230356164/<directory>

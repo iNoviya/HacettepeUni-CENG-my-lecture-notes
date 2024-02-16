@@ -1,0 +1,21 @@
+ls 
+
+cd chace location (generally enter folder or files)
+
+ssh is ehter the departmant developer server
+
+scp  is a sent file (between 2 people or server)
+
+ls ll	this is listed of files in folder
+
+cp  is copy file and directory 
+rm  is remove file and directories
+	rm-r (for directories) 
+mv  is move or rename 
+mkdir  is create a folder
+cat  is a create a file
+nano is basic text editor 
+
+
+zip/ unzip  create and extract 
+	

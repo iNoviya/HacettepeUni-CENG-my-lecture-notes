@@ -1,0 +1,54 @@
+1 	setn r1
+2 	jgtzn r1 10 
+3	jltzn r1 15 
+4	jnezn r1 5
+5	mul r2 r1 r1 
+6	add r2 r2 10
+7	div r2 r2 5
+8	write r1 r2 
+9	halt 
+10	nul r3 r1 3
+11	sub r3 r3 -4
+12	write r1 r3 
+13	halt
+14	nop
+15	div r4 r1 5
+16	write r1 r4
+17	halt 
+
+setn r1
+jgtzn r1 10 
+jltzn r1 15 
+jnezn r1 5
+mul r2 r1 r1 
+add r2 r2 10
+div r2 r2 5
+write r1 r2 
+halt 
+nul r3 r1 3
+sub r3 r3 -4
+write r1 r3 
+halt
+nop
+div r4 r1 5
+write r1 r4
+halt 
+
+1 read r1
+2 jgtzn r1 10
+3 jltzn r1 15
+4 jnezn r1 0 
+5 mul r2 r1 r1 
+6 add r3 r2 10
+7 div r4 r2 5
+8 write r1 r4
+9 halt 
+10 mul r5 r1 3
+11 sub r5 -4
+12 write r1 r5 
+13 halt
+14 nop
+15 div r6 r1 5
+16 write r1 r6
+17 halt
+

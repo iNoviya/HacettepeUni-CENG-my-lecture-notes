@@ -1,0 +1,21 @@
+0 read r1
+1 setn r10 3
+2 setn r11 5
+3 jltzn r1 13 # if it smaler than 0
+4 jgtzn r1 18 # if else its bigger than 0
+5 jeqzn r1 7 # else its equict 0
+6 nop
+7 mul r2 r1 r1 # r1 = 0 ? (x^2 +10)/5
+8 addn r2 10
+9 div r2 r2 r11
+10 write r2
+11 halt 
+12 nop 
+13 mul r3 r1 r10 # r1 < 0 ?  3x-4
+14 addn r3  -4
+15 write r3
+16 halt 
+17 nop
+18 div r4 r1 r11 # r1 > 0 ? x/5
+19 write r4
+20 halt
