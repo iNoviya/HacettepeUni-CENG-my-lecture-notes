@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_2/project_2_vivado/project_2_vivado.srcs/sources_1/new/fkff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jkff
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_2/project_2_vivado/project_2_vivado.srcs/sources_1/new/machine_jk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module machine_jk
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_2/project_2_vivado/project_2_vivado.srcs/sim_1/new/machine_jk_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module machine_jk_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_2/project_2_vivado/project_2_vivado.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

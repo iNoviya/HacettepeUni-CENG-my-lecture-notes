@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Dec 26 22:16:41 2023
+# Process ID: 1576
+# Current directory: E:/verilog/project_2/project_2_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21652 E:\verilog\project_2\project_2_vivado\project_2_vivado.xpr
+# Log file: E:/verilog/project_2/project_2_vivado/vivado.log
+# Journal file: E:/verilog/project_2/project_2_vivado\vivado.jou
+# Running On: mskarats, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 16505 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/verilog/project_2/project_2_vivado/project_2_vivado.xpr
+update_compile_order -fileset sources_1
+synth_design -top machine_d -part xck26-sfvc784-2LV-c -lint 
+synth_design -top machine_d -part xck26-sfvc784-2LV-c -lint 
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
