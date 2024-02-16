@@ -1,0 +1,120 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Dec  7 00:30:21 2023
+# Process ID: 24680
+# Current directory: E:/verilog/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19596 E:\verilog\project_1\project_1.xpr
+# Log file: E:/verilog/project_1/vivado.log
+# Journal file: E:/verilog/project_1\vivado.jou
+# Running On: mskarats, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 16505 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/verilog/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top full_adder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source full_adder_tb.tcl
+add_bp {E:/verilog/project_1/project_1.srcs/sim_1/new/full_adder_tb.v} 41
+remove_bps -file {E:/verilog/project_1/project_1.srcs/sim_1/new/full_adder_tb.v} -line 41
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/verilog/project_1/project_1.srcs/sim_1/new/multiplier.v w ]
+add_files -fileset sim_1 E:/verilog/project_1/project_1.srcs/sim_1/new/multiplier.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top multiplier_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+relaunch_sim
+launch_simulation
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top multiplier [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint 
+refresh_design
+synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint 
+refresh_design
+refresh_design
+launch_simulation
+source multiplier_tb.tcl
+synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint 
+refresh_design
+synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_2
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint 
+refresh_design
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+add_bp {E:/verilog/project_1/project_1.srcs/sources_1/new/multiplier.v} 8
+remove_bps -file {E:/verilog/project_1/project_1.srcs/sources_1/new/multiplier.v} -line 8
+synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint 
+synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint 
+synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint 
+refresh_design
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint 
+refresh_design
+close_sim
+launch_simulation
+source multiplier_tb.tcl
+add_bp {E:/verilog/project_1/project_1.srcs/sim_1/new/multiplier.v} 43
+remove_bps -file {E:/verilog/project_1/project_1.srcs/sim_1/new/multiplier.v} -line 43
+add_bp {E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v} 8
+remove_bps -file {E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v} -line 8
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -top half_adder -part xck26-sfvc784-2LV-c -lint 
+synth_design -top half_adder -part xck26-sfvc784-2LV-c -lint 
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top half_adder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+relaunch_sim
+launch_simulation
+source half_adder_tb.tcl
+synth_design -top half_adder -part xck26-sfvc784-2LV-c -lint 
+close_sim
+launch_simulation
+source half_adder_tb.tcl
+close_sim
+current_sim simulation_6
+close_sim
+close_sim

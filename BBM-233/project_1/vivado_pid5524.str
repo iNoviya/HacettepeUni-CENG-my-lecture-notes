@@ -1,0 +1,1707 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:14:34 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 5524
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Dec 06 23:10:36 TRT 2023
+Time zone: 	Turkey Time (Europe/Istanbul)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1032
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	C:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+Java executable: 	C:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	mskar
+User home directory: C:/Users/mskar
+User working directory: E:/verilog/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2023.2
+RDI_DATADIR: C:/Xilinx/Vivado/2023.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: C:/Users/mskar/AppData/Roaming/Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: C:/Users/mskar/AppData/Roaming/Xilinx/Vivado/2023.2/
+Vivado layouts directory: C:/Users/mskar/AppData/Roaming/Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	E:/verilog/project_1/vivado.log
+Vivado journal file: 	E:/verilog/project_1/vivado.jou
+Engine tmp dir: 	E:/verilog/project_1/.Xil/Vivado-5524-mskarats
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/Vivado/2023.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent8668 "E:\verilog\project_1\project_1.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2023.2/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2023.2
+RDI_INSTALLVERSION: 2023.2
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2023.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2023.2/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: C:/Xilinx/Vivado/2023.2/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PROG: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: E:\verilog\project_1:MSKARATS-Wed12-06-2023_23-10-06.55
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2023.2/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2023.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2023.2
+_RDI_BINROOT: C:\Xilinx\Vivado\2023.2\bin
+_RDI_CWD: E:\verilog\project_1
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 818 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: E:\verilog\project_1\project_1.xpr. Version: Vivado v2023.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project E:/verilog/project_1/project_1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 841 MB. GUI used memory: 67 MB. Current time: 12/6/23, 11:10:37 PM TRT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/verilog/project_1/project_1.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/verilog/project_1/project_1.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 126 MB (+129699kb) [00:00:21]
+// [Engine Memory]: 1,031 MB (+929630kb) [00:00:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  3225 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'. 
+// [GUI Memory]: 143 MB (+10720kb) [00:00:24]
+// [Engine Memory]: 1,102 MB (+19978kb) [00:00:24]
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1421.551 ; gain = 374.785 
+// Project name: project_1; location: E:/verilog/project_1; part: xck26-sfvc784-2LV-c
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 60 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// PAPropertyPanels.initPanels (multiplier.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M4 : full_adder (full_adder.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M4 : full_adder (full_adder.v), haM2 : half_adder (half_adder.v)]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M4 : full_adder (full_adder.v), haM2 : half_adder (half_adder.v)]", 7, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("half_adder.v", 294, 115); // ad (half_adder.v)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al (RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, Custom Commands)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ao (RDIResourceCommand.RDICommands_SETTINGS, settings_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl (Dont Echo) Command: 'rdi::info_commands {device::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {debug::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  2547 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,144 MB. GUI used memory: 95 MB. Current time: 12/6/23, 11:12:13 PM TRT
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M5 : full_adder (full_adder.v)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6, true); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree) - Node
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor, Code Completion]", 7, false); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor, Syntax Checking]", 8, false); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor, Tabs]", 9, false); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor, Fonts and Colors]", 10, false); // s (PAResourceQtoS.SettingsDialog_OPTIONS_TREE, Options Tree)
+// Elapsed time: 20 seconds
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (RDIResource.BaseDialog_APPLY)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Settings"); // d (dialog0)
+// [GUI Memory]: 154 MB (+4410kb) [00:02:28]
+// [Engine Memory]: 1,161 MB (+4323kb) [00:02:28]
+// Elapsed time: 11 seconds
+selectCodeEditor("half_adder.v", 451, 113); // ad (half_adder.v)
+// [GUI Memory]: 175 MB (+13842kb) [00:02:40]
+selectCodeEditor("half_adder.v", 426, 135); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 317, 105); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 320, 142); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 293, 269); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 276, 283); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 304, 256); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 304, 256, false, false, false, false, true); // ad (half_adder.v) - Double Click
+selectCodeEditor("half_adder.v", 304, 256); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 289, 141); // ad (half_adder.v)
+typeControlKey((HResource) null, "half_adder.v", 'v'); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 314, 265); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 314, 265, false, false, false, false, true); // ad (half_adder.v) - Double Click
+selectCodeEditor("half_adder.v", 314, 265); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 317, 187); // ad (half_adder.v)
+typeControlKey((HResource) null, "half_adder.v", 'v'); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 462, 104); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 417, 148); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 415, 185); // ad (half_adder.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02m:36s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02m:38s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 02m:40s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// [GUI Memory]: 189 MB (+5349kb) [00:03:03]
+// Elapsed Time for: 'L.f': 02m:42s
+selectCodeEditor("half_adder.v", 153, 215); // ad (half_adder.v)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("half_adder.v", 227, 252); // ad (half_adder.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M5 : full_adder (full_adder.v)]", 12, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M5 : full_adder (full_adder.v)]", 12, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("full_adder.v", 181, 144); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 573, 108); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 434, 301); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 255, 135); // ad (full_adder.v)
+typeControlKey((HResource) null, "full_adder.v", 'v'); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 590, 103); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 451, 149); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 436, 197); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 408, 226); // ad (full_adder.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03m:28s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03m:30s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 03m:32s
+// Elapsed Time for: 'L.f': 03m:34s
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 30 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, half_adder.v]", 3, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, half_adder.v]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, half_adder.v]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, half_adder.v]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, half_adder.v]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 45 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,164 MB. GUI used memory: 98 MB. Current time: 12/6/23, 11:15:52 PM TRT
+selectCodeEditor("full_adder.v", 414, 161); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 414, 143); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 405, 181); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 393, 220); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 449, 157); // ad (full_adder.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:22s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:24s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 05m:26s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 05m:28s
+selectCodeEditor("half_adder.v", 327, 168); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 327, 149); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 362, 202); // ad (half_adder.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:34s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:36s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 05m:38s
+// Elapsed Time for: 'L.f': 05m:40s
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), haM_M5 : half_adder (half_adder.v)]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), haM_M5 : half_adder (half_adder.v)]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), haM_M5 : half_adder (half_adder.v)]", 6, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top half_adder [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 05m:48s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:50s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 05m:52s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Tcl Message: synth_design -top half_adder -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top half_adder -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' 
+// TclEventType: MSGMGR_REFRESH_MSG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,495 MB. GUI used memory: 99 MB. Current time: 12/6/23, 11:16:42 PM TRT
+// TclEventType: DESIGN_NEW_FAILED
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes INFO: [Synth 8-7075] Helper process launched with PID 25328 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1907.305 ; gain = 397.875 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'half_adder' (1#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2012.801 ; gain = 503.371 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 0 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2012.801 ; gain = 503.371 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2012.801 ; gain = 503.371 
+// 'a' command handler elapsed time: 9 seconds
+dismissDialog("Run Linter"); // bq (Run Linter Progress)
+// [Engine Memory]: 1,688 MB (+491386kb) [00:06:25]
+selectCodeEditor("half_adder.v", 464, 255); // ad (half_adder.v)
+// Elapsed Time for: 'L.f': 06m:04s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // f (RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Elaborate Design"); // u (dialog1)
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xck26-sfvc784-2LV-c Top: half_adder 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,735 MB. GUI used memory: 98 MB. Current time: 12/6/23, 11:16:57 PM TRT
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// HMemoryUtils.trashcanNow. Engine heap size: 2,472 MB. GUI used memory: 99 MB. Current time: 12/6/23, 11:17:17 PM TRT
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,637 MB. GUI used memory: 99 MB. Current time: 12/6/23, 11:17:24 PM TRT
+// [Engine Memory]: 2,650 MB (+920369kb) [00:07:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,650 MB. GUI used memory: 101 MB. Current time: 12/6/23, 11:17:25 PM TRT
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 276 MB (+81328kb) [00:07:05]
+// [Engine Memory]: 2,822 MB (+42091kb) [00:07:05]
+// Xgd.load filename: C:/Xilinx/Vivado/2023.2/data/parts/xilinx/zynquplus/devint/zynquplus/xck26/xck26.xgd; ZipEntry: xck26_detail.xgd elapsed time: 1.6s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.9s
+// WARNING: HEventQueue.dispatchEvent() is taking  2434 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c 
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2866.027 ; gain = 86.918 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'half_adder' (0#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2959.543 ; gain = 180.434 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2977.371 ; gain = 198.262 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2977.371 ; gain = 198.262 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2977.371 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2995.969 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 3603.641 ; gain = 824.531 
+// Tcl Message: 6 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 3603.641 ; gain = 1590.840 
+// Elapsed Time for: 'o.a': 37s
+// [GUI Memory]: 299 MB (+10187kb) [00:07:07]
+// [Engine Memory]: 3,036 MB (+76240kb) [00:07:07]
+// 'dB' command handler elapsed time: 38 seconds
+// Elapsed time: 34 seconds
+dismissDialog("Open Elaborated Design"); // bq (Open Elaborated Design Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 4.1s
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aa
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M4 : full_adder (full_adder.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M4 : full_adder (full_adder.v)]", 5, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M4 : full_adder (full_adder.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), faM_M4 : full_adder (full_adder.v)]", 5, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top full_adder [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 07m:04s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Elapsed Time for: 'L.f': 07m:06s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: synth_design -top full_adder -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top full_adder -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' 
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: DESIGN_NEW_FAILED
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3736.156 ; gain = 15.746 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'full_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/full_adder.v:3] INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'half_adder' (1#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'full_adder' (2#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/full_adder.v:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 3768.609 ; gain = 48.199 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 0 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 3786.449 ; gain = 66.039 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 9 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 3786.449 ; gain = 66.039 
+// 'a' command handler elapsed time: 10 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Run Linter"); // bq (Run Linter Progress)
+// [GUI Memory]: 314 MB (+129kb) [00:07:40]
+// Elapsed Time for: 'L.f': 07m:18s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,169 MB. GUI used memory: 230 MB. Current time: 12/6/23, 11:18:02 PM TRT
+// Elapsed Time for: 'L.f': 07m:20s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,191 MB. GUI used memory: 230 MB. Current time: 12/6/23, 11:20:17 PM TRT
+// [Engine Memory]: 3,191 MB (+2805kb) [00:11:23]
+// Elapsed time: 493 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, "Reload Design"); // ao (PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, reload_rtl_design_menu)
+// Run Command: PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4170.918 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'full_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/full_adder.v:3] INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'half_adder' (0#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'full_adder' (0#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/full_adder.v:3] 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,191 MB. GUI used memory: 211 MB. Current time: 12/6/23, 11:26:28 PM TRT
+// Engine heap size: 3,191 MB. GUI used memory: 212 MB. Current time: 12/6/23, 11:26:28 PM TRT
+// Elapsed time: 11 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4170.918 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4170.918 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4170.918 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4170.918 ; gain = 0.000 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,191 MB. GUI used memory: 105 MB. Current time: 12/6/23, 11:26:29 PM TRT
+// Xgd.load filename: C:/Xilinx/Vivado/2023.2/data/parts/xilinx/zynquplus/devint/zynquplus/xck26/xck26.xgd; ZipEntry: xck26_detail.xgd elapsed time: 1.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.3s
+// WARNING: HEventQueue.dispatchEvent() is taking  1945 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 4170.918 ; gain = 0.000 
+// 'd' command handler elapsed time: 12 seconds
+dismissDialog("Reloading"); // bq (Reloading Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 3.2s
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top multiplier [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 16m:02s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 16m:04s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Tcl Message: synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' 
+// TclEventType: MSGMGR_REFRESH_MSG
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 234 MB. Current time: 12/6/23, 11:26:53 PM TRT
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// TclEventType: LINTER_RUN
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4232.559 ; gain = 33.254 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4232.559 ; gain = 33.254 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 2 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4232.559 ; gain = 33.254 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 13 Infos, 2 Warnings, 2 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 4232.559 ; gain = 33.254 
+// 'a' command handler elapsed time: 10 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Linter"); // bq (Run Linter Progress)
+// Elapsed Time for: 'L.f': 16m:18s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// Elapsed Time for: 'L.f': 16m:20s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, "Reload Design"); // ao (PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, reload_rtl_design_menu)
+// Run Command: PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4232.559 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 231 MB. Current time: 12/6/23, 11:27:20 PM TRT
+// Engine heap size: 3,306 MB. GUI used memory: 232 MB. Current time: 12/6/23, 11:27:20 PM TRT
+// Elapsed time: 11 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 4232.559 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 4232.559 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 4232.559 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4232.559 ; gain = 0.000 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 108 MB. Current time: 12/6/23, 11:27:21 PM TRT
+// Xgd.load filename: C:/Xilinx/Vivado/2023.2/data/parts/xilinx/zynquplus/devint/zynquplus/xck26/xck26.xgd; ZipEntry: xck26_detail.xgd elapsed time: 1.3s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.3s
+// WARNING: HEventQueue.dispatchEvent() is taking  1671 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 4232.559 ; gain = 0.000 
+// 'd' command handler elapsed time: 14 seconds
+dismissDialog("Reloading"); // bq (Reloading Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.9s
+// Elapsed time: 153 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // E (dialog2)
+// Elapsed time: 193 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectCodeEditor("multiplier.v", 370, 261); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 272, 270); // ad (multiplier.v)
+typeControlKey((HResource) null, "multiplier.v", 'v'); // ad (multiplier.v)
+// Elapsed time: 11 seconds
+selectCodeEditor("multiplier.v", 374, 301); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 379, 309); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 272, 311); // ad (multiplier.v)
+typeControlKey((HResource) null, "multiplier.v", 'v'); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 333, 297); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 377, 304); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 379, 304, false, false, false, false, true); // ad (multiplier.v) - Double Click
+selectCodeEditor("multiplier.v", 360, 314); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 337, 309); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 267, 308); // ad (multiplier.v)
+typeControlKey((HResource) null, "multiplier.v", 'v'); // ad (multiplier.v)
+// Elapsed time: 11 seconds
+selectCodeEditor("multiplier.v", 369, 417); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 381, 422); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 381, 422, false, false, false, false, true); // ad (multiplier.v) - Double Click
+selectCodeEditor("multiplier.v", 370, 433); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 387, 426); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 281, 420); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 268, 424); // ad (multiplier.v)
+typeControlKey((HResource) null, "multiplier.v", 'v'); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 378, 473); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 284, 469); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 274, 467); // ad (multiplier.v)
+typeControlKey((HResource) null, "multiplier.v", 'v'); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 406, 416); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 393, 420); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 389, 286); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 302, 262); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 287, 276); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 277, 308); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 283, 313); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 282, 273); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 643, 330); // ad (multiplier.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 23m:44s
+// Elapsed Time for: 'L.f': 23m:46s
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' 
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// TclEventType: LINTER_RUN
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4257.191 ; gain = 15.344 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4257.191 ; gain = 15.344 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 2 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4278.473 ; gain = 36.625 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 13 Infos, 2 Warnings, 2 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4278.473 ; gain = 36.625 
+// 'a' command handler elapsed time: 8 seconds
+dismissDialog("Run Linter"); // bq (Run Linter Progress)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, "Reload Design"); // ao (PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, reload_rtl_design_menu)
+// Run Command: PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4279.758 ; gain = 1.285 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 111 MB. Current time: 12/6/23, 11:35:11 PM TRT
+// Engine heap size: 3,306 MB. GUI used memory: 111 MB. Current time: 12/6/23, 11:35:11 PM TRT
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4279.758 ; gain = 1.285 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4279.758 ; gain = 1.285 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4279.758 ; gain = 1.285 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4300.539 ; gain = 0.000 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 110 MB. Current time: 12/6/23, 11:35:12 PM TRT
+// Xgd.load filename: C:/Xilinx/Vivado/2023.2/data/parts/xilinx/zynquplus/devint/zynquplus/xck26/xck26.xgd; ZipEntry: xck26_detail.xgd elapsed time: 1.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.3s
+// WARNING: HEventQueue.dispatchEvent() is taking  1411 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 4300.539 ; gain = 22.066 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Reloading"); // bq (Reloading Progress)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // E (dialog3)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.9s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Report Methodology]", 14, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_METHODOLOGY
+// 'cl' command handler elapsed time: 3 seconds
+dismissDialog("Report Methodology"); // a (dialog4)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("multiplier.v", 177, 220); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 180, 253); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 176, 289); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 171, 262); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 173, 292); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 172, 299); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 177, 336); // ad (multiplier.v)
+selectCodeEditor("multiplier.v", 394, 347); // ad (multiplier.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 25m:33s
+selectCodeEditor("multiplier.v", 593, 221); // ad (multiplier.v)
+// Elapsed Time for: 'L.f': 25m:34s
+selectCodeEditor("multiplier.v", 593, 220); // ad (multiplier.v)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top multiplier -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' 
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// TclEventType: LINTER_RUN
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4333.367 ; gain = 1.934 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 4333.367 ; gain = 1.934 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 2 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 4348.375 ; gain = 16.941 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 13 Infos, 2 Warnings, 2 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 4348.375 ; gain = 16.941 
+// 'a' command handler elapsed time: 8 seconds
+dismissDialog("Run Linter"); // bq (Run Linter Progress)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, "Reload Design"); // ao (PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, reload_rtl_design_menu)
+// Run Command: PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4348.473 ; gain = 0.098 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 113 MB. Current time: 12/6/23, 11:36:51 PM TRT
+// Engine heap size: 3,306 MB. GUI used memory: 113 MB. Current time: 12/6/23, 11:36:51 PM TRT
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4348.473 ; gain = 0.098 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4348.473 ; gain = 0.098 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4348.473 ; gain = 0.098 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4368.949 ; gain = 0.000 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 112 MB. Current time: 12/6/23, 11:36:52 PM TRT
+// WARNING: HEventQueue.dispatchEvent() is taking  1343 ms.
+// Xgd.load filename: C:/Xilinx/Vivado/2023.2/data/parts/xilinx/zynquplus/devint/zynquplus/xck26/xck26.xgd; ZipEntry: xck26_detail.xgd elapsed time: 1.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.3s
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 4368.949 ; gain = 20.574 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Reloading"); // bq (Reloading Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.7s
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // E (dialog5)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Elapsed time: 22 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets P]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets P]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// Elapsed time: 49 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M5_haM/G1_i]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M5_haM/G1_i]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M5_haM]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M6_faM/haM2/G1_i]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M6_faM/haM2/G1_i]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M6_faM/G1_i]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M6_faM/G1_i]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M6_faM/G1_i]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// Elapsed time: 20 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M3_faM]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M1_haM]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// [GUI Memory]: 332 MB (+2300kb) [00:28:52]
+// Elapsed time: 13 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// Run Command: RDIResourceCommand.RDICommands_FIND
+// Elapsed time: 10 seconds
+setText(PAResourceTtoZ.TclFindDialog_RESULT_NAME, "G7", true); // i (PAResourceTtoZ.TclFindDialog_RESULT_NAME)
+// Tcl Command: 'show_objects -name G7 [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ RTL_GATE.*.* } ]'
+// TclEventType: SHOW_OBJECTS
+// Tcl Message: show_objects -name G7 [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ RTL_GATE.*.* } ] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Find Cells"); // bq (Find Cells Progress)
+dismissDialog("Find"); // f (dialog6)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M1_haM]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M1_haM]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M1_haM]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_cells M1_haM]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+selectButton(PAResourceItoN.NetlistSchematicView_SHOW_CELLS_IN_THIS_SCHEMATIC, "1 Cell"); // g (PAResourceItoN.NetlistSchematicView_SHOW_CELLS_IN_THIS_SCHEMATIC)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // B (PAResourceCommand.PACommandNames_ZOOM_OUT, Schematic_zoom_out)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (PAResourceCommand.PACommandNames_ZOOM_FIT, Schematic_zoom_fit)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION, (String) null); // v (PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION): TRUE
+// Run Command: PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION
+selectButton(PAResourceCommand.PACommandNames_SELECT_AREA, "Schematic_select_area"); // v (PAResourceCommand.PACommandNames_SELECT_AREA, Schematic_select_area): TRUE
+// Run Command: PAResourceCommand.PACommandNames_SELECT_AREA
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 304, 237, 1216, 630, false, false, false, true, false); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SchMenuAndMouse_CYCLE_SELECTION, "Cycle Selection"); // ao (PAResourceQtoS.SchMenuAndMouse_CYCLE_SELECTION, Cycle Selection)
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 320, 260, 1216, 630, false, false, false, true, false); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic) - Popup Trigger
+selectMenu(PAResourceItoN.NetlistSchMenuAndMouse_VIEW, "View"); // al (PAResourceItoN.NetlistSchMenuAndMouse_VIEW, View)
+selectMenu(PAResourceItoN.NetlistSchMenuAndMouse_VIEW, "View"); // al (PAResourceItoN.NetlistSchMenuAndMouse_VIEW, View)
+selectMenuItem(PAResourceCommand.PACommandNames_ZOOM_AREA, "Zoom Area"); // ao (PAResourceCommand.PACommandNames_ZOOM_AREA, zoom_area_menu)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_AREA
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B (PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, "Reload Design"); // ao (PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, reload_rtl_design_menu)
+// Run Command: PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 122 MB. Current time: 12/6/23, 11:40:27 PM TRT
+// Engine heap size: 3,306 MB. GUI used memory: 122 MB. Current time: 12/6/23, 11:40:27 PM TRT
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: refresh_design 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 122 MB. Current time: 12/6/23, 11:40:28 PM TRT
+// WARNING: HEventQueue.dispatchEvent() is taking  1406 ms.
+// Xgd.load filename: C:/Xilinx/Vivado/2023.2/data/parts/xilinx/zynquplus/devint/zynquplus/xck26/xck26.xgd; ZipEntry: xck26_detail.xgd elapsed time: 1.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.3s
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// 'd' command handler elapsed time: 4 seconds
+dismissDialog("Reloading"); // bq (Reloading Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 3s
+// Run Command: RDIResourceCommand.RDICommands_FIND
+// Elapsed time: 10 seconds
+setText(PAResourceTtoZ.TclFindDialog_RESULT_NAME, "G7", true); // i (PAResourceTtoZ.TclFindDialog_RESULT_NAME)
+// Tcl Command: 'show_objects -name G7 [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ RTL_GATE.*.* } ]'
+// TclEventType: SHOW_OBJECTS
+// Tcl Message: show_objects -name G7 [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ RTL_GATE.*.* } ] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Find Cells"); // bq (Find Cells Progress)
+dismissDialog("Find"); // f (dialog7)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets w6]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets w6]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// Elapsed time: 966 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectCodeEditor("half_adder.v", 423, 120); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 413, 163); // ad (half_adder.v)
+typeControlKey((HResource) null, "half_adder.v", 'v'); // ad (half_adder.v)
+typeControlKey(null, null, 'z');
+selectCodeEditor("half_adder.v", 419, 185); // ad (half_adder.v)
+typeControlKey((HResource) null, "half_adder.v", 'v'); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 419, 185); // ad (half_adder.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 46m:45s
+// Elapsed Time for: 'L.f': 46m:47s
+selectCodeEditor("half_adder.v", 454, 218); // ad (half_adder.v)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v), haM2 : half_adder (half_adder.v)]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v), haM2 : half_adder (half_adder.v)]", 9, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top half_adder [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 47m:01s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 47m:03s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 47m:05s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v)]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed Time for: 'L.f': 47m:07s
+// Elapsed time: 59 seconds
+selectCodeEditor("full_adder.v", 480, 191); // ad (full_adder.v)
+typeControlKey((HResource) null, "full_adder.v", 'v'); // ad (full_adder.v)
+selectCodeEditor("full_adder.v", 514, 163); // ad (full_adder.v)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v)]", 7, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v)]", 7, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top full_adder [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 48m:31s
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 48m:33s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 48m:35s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Tcl Message: synth_design -top full_adder -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top full_adder -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' 
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// TclEventType: LINTER_RUN
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4368.949 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'full_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/full_adder.v:3] INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'half_adder' (1#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'full_adder' (2#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/full_adder.v:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4368.949 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 0 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4368.949 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 4368.949 ; gain = 0.000 
+// 'a' command handler elapsed time: 11 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Linter"); // bq (Run Linter Progress)
+// Elapsed Time for: 'L.f': 48m:47s
+selectCodeEditor("full_adder.v", 498, 119); // ad (full_adder.v)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 10, true, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, "Reload Design"); // ao (PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, reload_rtl_design_menu)
+// Run Command: PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4368.949 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 252 MB. Current time: 12/6/23, 11:59:48 PM TRT
+// Engine heap size: 3,306 MB. GUI used memory: 253 MB. Current time: 12/6/23, 11:59:49 PM TRT
+// Elapsed time: 10 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'full_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/full_adder.v:3] INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'half_adder' (0#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'full_adder' (0#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/full_adder.v:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4368.949 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4372.258 ; gain = 3.309 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4372.258 ; gain = 3.309 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 127 MB. Current time: 12/6/23, 11:59:50 PM TRT
+// Xgd.load filename: C:/Xilinx/Vivado/2023.2/data/parts/xilinx/zynquplus/devint/zynquplus/xck26/xck26.xgd; ZipEntry: xck26_detail.xgd elapsed time: 1.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.3s
+// WARNING: HEventQueue.dispatchEvent() is taking  1461 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 4392.844 ; gain = 23.895 
+// 'd' command handler elapsed time: 12 seconds
+dismissDialog("Reloading"); // bq (Reloading Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 3s
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 13, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Text Changed"); // h (dialog8)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 49m:39s
+// Elapsed Time for: 'L.f': 49m:41s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // f (dialog9)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: [Thu Dec  7 00:00:29 2023] Launched synth_1... Run output will be captured here: E:/verilog/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bq (Starting Design Runs Progress)
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v), haM1 : half_adder (half_adder.v)]", 8, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M6_faM : full_adder (full_adder.v), haM1 : half_adder (half_adder.v)]", 8, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("half_adder.v", 413, 74); // ad (half_adder.v)
+// Elapsed time: 11 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES)
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 13 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "half_adder_tb.v"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// Tcl Command: 'file mkdir E:/verilog/project_1/project_1.srcs/sim_1/new'
+dismissDialog("Create Source File"); // m (dialog11)
+// Tcl Message: file mkdir E:/verilog/project_1/project_1.srcs/sim_1/new 
+// Elapsed time: 16 seconds
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 41 seconds
+dismissDialog("Add Sources"); // c (dialog10)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open E:/verilog/project_1/project_1.srcs/sim_1/new/half_adder_tb.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 E:/verilog/project_1/project_1.srcs/sim_1/new/half_adder_tb.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+dismissDialog("Define Module"); // p (dialog12)
+// Elapsed Time for: 'L.f': 51m:09s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 51m:11s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'L.f': 51m:13s
+// Elapsed Time for: 'L.f': 51m:15s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 10); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 12); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, half_adder_tb (half_adder_tb.v)]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, half_adder_tb (half_adder_tb.v)]", 7, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("half_adder_tb.v", 351, 258); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 391, 130); // ad (half_adder_tb.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("half_adder_tb.v", 359, 180); // ad (half_adder_tb.v)
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 392, 166); // ad (half_adder_tb.v)
+typeControlKey(null, null, 'z');
+selectCodeEditor("half_adder_tb.v", 405, 168); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 237, 198); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 277, 236); // ad (half_adder_tb.v)
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 338, 160); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 379, 151); // ad (half_adder_tb.v)
+// Elapsed time: 63 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder.v", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder_tb.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 53m:27s
+// Elapsed Time for: 'L.f': 53m:29s
+// Elapsed time: 151 seconds
+selectCodeEditor("half_adder_tb.v", 389, 213); // ad (half_adder_tb.v)
+// Elapsed time: 31 seconds
+selectCodeEditor("half_adder_tb.v", 628, 198); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 276, 223); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 276, 223, false, false, false, false, true); // ad (half_adder_tb.v) - Double Click
+selectCodeEditor("half_adder_tb.v", 293, 225); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 293, 225, false, false, false, false, true); // ad (half_adder_tb.v) - Double Click
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 301, 256); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 520, 221); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 540, 220); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 552, 230); // ad (half_adder_tb.v)
+// Elapsed time: 55 seconds
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+// Elapsed time: 12 seconds
+selectCodeEditor("half_adder_tb.v", 131, 94); // ad (half_adder_tb.v)
+typeControlKey((HResource) null, "half_adder_tb.v", 'c'); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 335, 299); // ad (half_adder_tb.v)
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+// Elapsed time: 17 seconds
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+// Elapsed time: 44 seconds
+selectCodeEditor("half_adder_tb.v", 559, 337); // ad (half_adder_tb.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 59m:24s
+// Elapsed time: 46 seconds
+selectCodeEditor("half_adder_tb.v", 472, 456); // ad (half_adder_tb.v)
+typeControlKey((HResource) null, "half_adder_tb.v", 'c'); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 305, 426); // ad (half_adder_tb.v)
+// Elapsed Time for: 'L.f': 59m:26s
+selectCodeEditor("half_adder_tb.v", 311, 448); // ad (half_adder_tb.v)
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 178, 394); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 183, 416); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 186, 261); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 180, 302); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 324, 321); // ad (half_adder_tb.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:00m:04s
+selectCodeEditor("half_adder_tb.v", 361, 400); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 369, 382); // ad (half_adder_tb.v)
+// Elapsed Time for: 'L.f': 01h:00m:06s
+// Elapsed time: 11 seconds
+selectCodeEditor("half_adder_tb.v", 356, 387); // ad (half_adder_tb.v)
+typeControlKey((HResource) null, "half_adder_tb.v", 'v'); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 200, 393); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 339, 432); // ad (half_adder_tb.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:00m:26s
+// Elapsed Time for: 'L.f': 01h:00m:28s
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'multiplier' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'multiplier' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj multiplier_vlog.prj" ECHO is off. ECHO is off. 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog13)
+// Elapsed time: 16 seconds
+selectCodeEditor("half_adder_tb.v", 341, 383); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 346, 379); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 390, 245); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 86, 362); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 81, 381); // ad (half_adder_tb.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:01m:16s
+// Elapsed Time for: 'L.f': 01h:01m:18s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, half_adder_tb (half_adder_tb.v)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, half_adder_tb (half_adder_tb.v)]", 7, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top half_adder_tb [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 01h:01m:26s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, half_adder_tb (half_adder_tb.v)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:01m:28s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'L.f': 01h:01m:30s
+// Elapsed Time for: 'L.f': 01h:01m:32s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'half_adder_tb' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'half_adder_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj half_adder_tb_vlog.prj" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module half_adder INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_1/project_1.srcs/sim_1/new/half_adder_tb.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module half_adder_tb INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot half_adder_tb_behav xil_defaultlib.half_adder_tb xil_defaultlib.glbl -log elaborate.log" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "half_adder_tb_behav -key {Behavioral:sim_1:Functional:half_adder_tb} -tclbatch {half_adder_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source half_adder_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 265 MB. Current time: 12/7/23, 12:12:28 AM TRT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: $finish called at time : 40 ns : File "E:/verilog/project_1/project_1.srcs/sim_1/new/half_adder_tb.v" Line 21 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'half_adder_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// 'd' command handler elapsed time: 9 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder.v", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("half_adder.v", 89, 304); // ad (half_adder.v)
+selectCodeEditor("half_adder.v", 89, 304, false, false, false, false, true); // ad (half_adder.v) - Double Click
+selectCodeEditor("half_adder.v", 361, 368); // ad (half_adder.v)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:02m:32s
+// Elapsed Time for: 'L.f': 01h:02m:34s
+// Elapsed time: 13 seconds
+selectCodeEditor("half_adder.v", 417, 205); // ad (half_adder.v)
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aa
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M4_faM : full_adder (full_adder.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M4_faM : full_adder (full_adder.v), haM1 : half_adder (half_adder.v)]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M4_faM : full_adder (full_adder.v), haM1 : half_adder (half_adder.v)]", 6, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M1_haM : half_adder (half_adder.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M1_haM : half_adder (half_adder.v)]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top half_adder [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 01h:03m:02s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:03m:04s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 9, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Tcl Message: synth_design -top half_adder -part xck26-sfvc784-2LV-c -lint  
+// Tcl Message: Command: synth_design -top half_adder -part xck26-sfvc784-2LV-c -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xck26' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26' 
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// TclEventType: LINTER_RUN
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'half_adder' (1#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 0 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// 'a' command handler elapsed time: 10 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Linter"); // bq (Run Linter Progress)
+// Elapsed Time for: 'L.f': 01h:03m:16s
+// Elapsed Time for: 'L.f': 01h:03m:18s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 10, true); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 10, true, false, false, false, true, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, "Reload Design"); // ao (PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, reload_rtl_design_menu)
+// Run Command: PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] INFO: [Synth 8-6155] done synthesizing module 'half_adder' (0#1) [E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v:3] 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 187 MB. Current time: 12/7/23, 12:14:21 AM TRT
+// Engine heap size: 3,306 MB. GUI used memory: 189 MB. Current time: 12/7/23, 12:14:21 AM TRT
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 122 MB. Current time: 12/7/23, 12:14:22 AM TRT
+// WARNING: HEventQueue.dispatchEvent() is taking  1842 ms.
+// Xgd.load filename: C:/Xilinx/Vivado/2023.2/data/parts/xilinx/zynquplus/devint/zynquplus/xck26/xck26.xgd; ZipEntry: xck26_detail.xgd elapsed time: 1.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.7s
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// 'd' command handler elapsed time: 13 seconds
+// Elapsed time: 13 seconds
+dismissDialog("Reloading"); // bq (Reloading Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 3.3s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 13, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectCodeEditor("half_adder_tb.v", 453, 151); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 336, 84); // ad (half_adder_tb.v)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectCodeEditor("half_adder_tb.v", 384, 491); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 463, 171, false, true, false, false, false); // ad (half_adder_tb.v) - Control Key
+typeControlKey((HResource) null, "half_adder_tb.v", 'c'); // ad (half_adder_tb.v)
+// Elapsed time: 16 seconds
+selectCodeEditor("half_adder_tb.v", 467, 181); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 68, 139); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 13, 146); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 5, 145); // ad (half_adder_tb.v)
+typeControlKey((HResource) null, "half_adder_tb.v", 'c'); // ad (half_adder_tb.v)
+// Elapsed time: 13 seconds
+selectCodeEditor("half_adder_tb.v", 238, 114); // ad (half_adder_tb.v)
+selectCodeEditor("half_adder_tb.v", 326, 136); // ad (half_adder_tb.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, half_adder_tb (half_adder_tb.v)]", 14, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bq (Close Progress)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'half_adder_tb' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'half_adder_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj half_adder_tb_vlog.prj" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_1/project_1.srcs/sources_1/new/half_adder.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module half_adder INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_1/project_1.srcs/sim_1/new/half_adder_tb.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module half_adder_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot half_adder_tb_behav xil_defaultlib.half_adder_tb xil_defaultlib.glbl -log elaborate.log" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/verilog/project_1/project_1.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "half_adder_tb_behav -key {Behavioral:sim_1:Functional:half_adder_tb} -tclbatch {half_adder_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 251 MB. Current time: 12/7/23, 12:15:50 AM TRT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: source half_adder_tb.tcl 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: $finish called at time : 40 ns : File "E:/verilog/project_1/project_1.srcs/sim_1/new/half_adder_tb.v" Line 21 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'half_adder_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 4392.844 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 3,306 MB. GUI used memory: 250 MB. Current time: 12/7/23, 12:15:56 AM TRT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 17 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // u (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer)
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aa
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+// Elapsed time: 51 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "full_adder_tb.v"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // m (dialog15)
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 61 seconds
+dismissDialog("Add Sources"); // c (dialog14)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open E:/verilog/project_1/project_1.srcs/sim_1/new/full_adder_tb.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 E:/verilog/project_1/project_1.srcs/sim_1/new/full_adder_tb.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+dismissDialog("Define Module"); // p (dialog16)
+// Elapsed Time for: 'L.f': 01h:06m:40s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:06m:42s
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed Time for: 'L.f': 01h:06m:44s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, full_adder_tb (full_adder_tb.v)]", 17, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, full_adder_tb (full_adder_tb.v)]", 17, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top full_adder_tb [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// Elapsed Time for: 'L.f': 01h:06m:48s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, full_adder_tb (full_adder_tb.v)]", 17, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, full_adder_tb (full_adder_tb.v)]", 17, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:06m:50s
+// Tcl Message: update_compile_order -fileset sim_1 
+selectCodeEditor("full_adder_tb.v", 377, 486); // ad (full_adder_tb.v)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 01h:06m:52s
+selectCodeEditor("full_adder_tb.v", 380, 496); // ad (full_adder_tb.v)
+// Elapsed Time for: 'L.f': 01h:06m:54s
+selectCodeEditor("full_adder_tb.v", 378, 146); // ad (full_adder_tb.v)
+typeControlKey((HResource) null, "full_adder_tb.v", 'v'); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 411, 135); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 411, 135, false, false, false, false, true); // ad (full_adder_tb.v) - Double Click
+selectCodeEditor("full_adder_tb.v", 411, 135); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 437, 110); // ad (full_adder_tb.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder_tb.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder_tb.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("full_adder_tb.v", 368, 137); // ad (full_adder_tb.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M4_faM : full_adder (full_adder.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplier (multiplier.v), M4_faM : full_adder (full_adder.v)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder_tb.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder.v", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder_tb.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 45 seconds
+selectCodeEditor("full_adder_tb.v", 510, 115); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 519, 326); // ad (full_adder_tb.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("full_adder_tb.v", 555, 315); // ad (full_adder_tb.v)
+// Elapsed Time for: 'L.f': 01h:08m:40s
+// Elapsed Time for: 'L.f': 01h:08m:42s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder_tb.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder_tb.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("full_adder_tb.v", 449, 232); // ad (full_adder_tb.v)
+// Elapsed time: 30 seconds
+selectCodeEditor("full_adder_tb.v", 629, 304); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 540, 362); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 463, 346); // ad (full_adder_tb.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder.v", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder_tb.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder_tb.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder_tb.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("full_adder_tb.v", 70, 298); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 281, 350); // ad (full_adder_tb.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder_tb.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder_tb.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("full_adder_tb.v", 646, 306); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 609, 312); // ad (full_adder_tb.v)
+// Elapsed time: 13 seconds
+selectCodeEditor("full_adder_tb.v", 636, 343); // ad (full_adder_tb.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder_tb.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder_tb.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "half_adder_tb.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "full_adder_tb.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 25 seconds
+selectCodeEditor("full_adder_tb.v", 479, 495); // ad (full_adder_tb.v)
+typeControlKey((HResource) null, "full_adder_tb.v", 'c'); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 288, 520); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 294, 503); // ad (full_adder_tb.v)
+typeControlKey((HResource) null, "full_adder_tb.v", 'v'); // ad (full_adder_tb.v)
+typeControlKey((HResource) null, "full_adder_tb.v", 'v'); // ad (full_adder_tb.v)
+typeControlKey((HResource) null, "full_adder_tb.v", 'v'); // ad (full_adder_tb.v)
+typeControlKey((HResource) null, "full_adder_tb.v", 'v'); // ad (full_adder_tb.v)
+typeControlKey((HResource) null, "full_adder_tb.v", 'v'); // ad (full_adder_tb.v)
+typeControlKey((HResource) null, "full_adder_tb.v", 'v'); // ad (full_adder_tb.v)
+typeControlKey((HResource) null, "full_adder_tb.v", 'v'); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 289, 308); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 292, 466); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 402, 371); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 280, 114); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 286, 271); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 287, 426); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 287, 341); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 283, 260); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 290, 270); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 324, 307); // ad (full_adder_tb.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("full_adder_tb.v", 197, 259); // ad (full_adder_tb.v)
+// Elapsed Time for: 'L.f': 01h:11m:34s
+selectCodeEditor("full_adder_tb.v", 201, 289); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 240, 330); // ad (full_adder_tb.v)
+// Elapsed Time for: 'L.f': 01h:11m:36s
+selectCodeEditor("full_adder_tb.v", 317, 329); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 236, 427); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 373, 356); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 199, 335); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 198, 376); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 236, 301); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 234, 349); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 201, 337); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 201, 381); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 230, 417); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 195, 384); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 198, 423); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 239, 385); // ad (full_adder_tb.v)
+selectCodeEditor("full_adder_tb.v", 345, 380); // ad (full_adder_tb.v)
