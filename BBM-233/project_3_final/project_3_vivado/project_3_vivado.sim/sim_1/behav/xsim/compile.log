@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_3_final/project_3_vivado/project_3_vivado.srcs/sources_1/new/ECSU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ECSU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/project_3_final/project_3_vivado/project_3_vivado.srcs/sim_1/new/ECSU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ECSU_tb

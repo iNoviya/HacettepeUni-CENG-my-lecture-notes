@@ -1,0 +1,60 @@
+$date
+   Sat Jan  6 22:40:24 2024
+$end
+
+$version
+  2023.2.1
+  $dumpfile ("ECSU.wave") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module ECSU_tb $end
+$var reg 1 ! CLK $end
+$var reg 1 " RST $end
+$var reg 1 # thunderstorm $end
+$var reg 6 $ wind [5:0] $end
+$var reg 2 % visibility [1:0] $end
+$var reg 8 & temp [7:0] $end
+$var wire 1 ' severe_weather $end
+$var wire 1 ( emergency_landing_alert $end
+$var wire 2 ) ECSU_state [1:0] $end
+$scope module uut $end
+$var wire 1 * CLK $end
+$var wire 1 + RST $end
+$var wire 1 , thunderstorm $end
+$var wire 6 - wind [5:0] $end
+$var wire 2 . visibility [1:0] $end
+$var wire 8 / temperature [7:0] $end
+$var reg 1 0 severe_weather $end
+$var reg 1 1 emergency_landing_alert $end
+$var reg 2 2 ECSU_state [1:0] $end
+$var reg 2 3 next_ECSU_state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+1"
+0#
+b0 $
+b0 %
+b0 &
+0'
+0(
+b0 )
+0*
+1+
+0,
+b0 -
+b0 .
+b0 /
+00
+01
+b0 2
+b0 3
+$end
